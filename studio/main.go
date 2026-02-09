@@ -1,18 +1,13 @@
-package main
-
-import "fmt"
-
-type ToDoStructur struct {
-	string zagalovok
-	string info
-	float64 time
-}
+package todo
 
 func main() {
-	
+
 	// for {
-		ToDoMap := make(map[string]{ToDomaToDoStructur})
-		
-		
+	TaskMap := map[string]Task{}
+
 	// }
 }
+
+// пересмотреть пользовательский ввод, и сделать в store функции, и через main обрашаться к функция по типу удалить, добавить и т.д.
+// после придумать что то, что будет сохронять события в store, скорее функция, и все сделать через условные вветвелния чтобы получать
+// либо сохраненную задачу/событие либо ошибку(к примеру: неправельный формат команды или такой задачи нету)
