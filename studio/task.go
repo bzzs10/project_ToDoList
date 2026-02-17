@@ -1,4 +1,4 @@
-package todo
+package main
 
 import "time"
 
@@ -11,4 +11,3 @@ type Task struct {
 }
 
 // файл со структурой мапы для заданий
-// +
